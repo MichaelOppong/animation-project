@@ -1,0 +1,66 @@
+body{
+    background-color: lightgreen;
+}
+
+#game{
+    position: relative;
+    height: 385px;
+    background: url("https://i.stack.imgur.com/WHu9Z.png") repeat-x;
+    border:5px double black;
+    display:none;
+}
+
+h1{
+    color:white;
+    text-align:center;
+    display:none;
+}
+.character{
+    width:100px;
+    height:70px;
+}
+
+.characterSection{
+    display:flex;
+    justify-content:space-between;
+}
+#character1{
+    width:100px;
+    height:100px;
+    position:absolute;  
+    bottom: 50px;
+}
+#character2{
+    width:100px;
+    height:100px;
+    position:absolute;
+    bottom: 57px;
+    right:10px;
+}
+#character3{
+    width:100px;
+    height:100px;
+    position:absolute;
+    bottom: 57px;
+    right:10px;
+}
+#nextlevel{
+    text-align:center;
+    padding:15px;
+    width:90px;
+    border:3px solid black;
+    border-radius:15px;
+}
+#level{
+    text-align:center;
+    font-size:25px;
+    display:none;
+}
+#start {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+}
